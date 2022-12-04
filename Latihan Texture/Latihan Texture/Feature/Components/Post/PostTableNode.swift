@@ -37,4 +37,12 @@ extension PostTableNode: ASTableDelegate, ASTableDataSource {
             PostNode(post: postData)
         }
     }
+    
+    public func tableNode(_ tableNode: ASTableNode, didDeselectRowAt indexPath: IndexPath) {
+        self.deselectRow(at: indexPath, animated: true)
+    }
+    
+    public func tableNode(_ tableNode: ASTableNode, willDeselectRowAt indexPath: IndexPath) -> IndexPath? {
+        return indexPath
+    }
 }

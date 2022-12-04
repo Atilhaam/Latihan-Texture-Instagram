@@ -1,0 +1,531 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6712182C28EBC192002090DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6712182B28EBC192002090DE /* AppDelegate.swift */; };
+		6712182E28EBC192002090DE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6712182D28EBC192002090DE /* SceneDelegate.swift */; };
+		6712183028EBC192002090DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6712182F28EBC192002090DE /* ViewController.swift */; };
+		6712183528EBC193002090DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6712183428EBC193002090DE /* Assets.xcassets */; };
+		6712183828EBC193002090DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6712183628EBC193002090DE /* LaunchScreen.storyboard */; };
+		6712184528EBD17A002090DE /* StoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6712184428EBD17A002090DE /* StoryModel.swift */; };
+		6712184728EBD1B4002090DE /* PostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6712184628EBD1B4002090DE /* PostModel.swift */; };
+		6712184928EBD234002090DE /* DataGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6712184828EBD234002090DE /* DataGenerator.swift */; };
+		6712188B28EBF5EB002090DE /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6712188A28EBF5EB002090DE /* HomeViewController.swift */; };
+		6712188F28EBF7E0002090DE /* HeaderNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6712188E28EBF7E0002090DE /* HeaderNode.swift */; };
+		6712189228EC0E31002090DE /* StoryNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6712189128EC0E31002090DE /* StoryNode.swift */; };
+		6712189428EC24DC002090DE /* StoryCollectionNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6712189328EC24DC002090DE /* StoryCollectionNode.swift */; };
+		6712189728EC4BD3002090DE /* PostNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6712189628EC4BD3002090DE /* PostNode.swift */; };
+		6712189928EC4D43002090DE /* PostHeaderNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6712189828EC4D43002090DE /* PostHeaderNode.swift */; };
+		6712189B28EC80CA002090DE /* PostTableNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6712189A28EC80CA002090DE /* PostTableNode.swift */; };
+		6712189F28EC95AA002090DE /* PostInteractionNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6712189E28EC95AA002090DE /* PostInteractionNode.swift */; };
+		671218A128EC9CCD002090DE /* PostInformationNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 671218A028EC9CCD002090DE /* PostInformationNode.swift */; };
+		B19FE66CE1A82142ACB18A8E /* Pods_Latihan_Texture.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 780ABD1F11B91375E5161EC0 /* Pods_Latihan_Texture.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1E0DECFBC658B8C0749A5170 /* Pods-Latihan Texture.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Latihan Texture.debug.xcconfig"; path = "Target Support Files/Pods-Latihan Texture/Pods-Latihan Texture.debug.xcconfig"; sourceTree = "<group>"; };
+		6712182828EBC192002090DE /* Latihan Texture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Latihan Texture.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6712182B28EBC192002090DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6712182D28EBC192002090DE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6712182F28EBC192002090DE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6712183428EBC193002090DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6712183728EBC193002090DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6712183928EBC193002090DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6712184428EBD17A002090DE /* StoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryModel.swift; sourceTree = "<group>"; };
+		6712184628EBD1B4002090DE /* PostModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostModel.swift; sourceTree = "<group>"; };
+		6712184828EBD234002090DE /* DataGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataGenerator.swift; sourceTree = "<group>"; };
+		6712188A28EBF5EB002090DE /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		6712188E28EBF7E0002090DE /* HeaderNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderNode.swift; sourceTree = "<group>"; };
+		6712189128EC0E31002090DE /* StoryNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryNode.swift; sourceTree = "<group>"; };
+		6712189328EC24DC002090DE /* StoryCollectionNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryCollectionNode.swift; sourceTree = "<group>"; };
+		6712189628EC4BD3002090DE /* PostNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostNode.swift; sourceTree = "<group>"; };
+		6712189828EC4D43002090DE /* PostHeaderNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostHeaderNode.swift; sourceTree = "<group>"; };
+		6712189A28EC80CA002090DE /* PostTableNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTableNode.swift; sourceTree = "<group>"; };
+		6712189E28EC95AA002090DE /* PostInteractionNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostInteractionNode.swift; sourceTree = "<group>"; };
+		671218A028EC9CCD002090DE /* PostInformationNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostInformationNode.swift; sourceTree = "<group>"; };
+		780ABD1F11B91375E5161EC0 /* Pods_Latihan_Texture.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Latihan_Texture.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD2538E32A9D20C47694A62A /* Pods-Latihan Texture.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Latihan Texture.release.xcconfig"; path = "Target Support Files/Pods-Latihan Texture/Pods-Latihan Texture.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6712182528EBC192002090DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B19FE66CE1A82142ACB18A8E /* Pods_Latihan_Texture.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D0B2CD3989B2762AC3AE6BF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				780ABD1F11B91375E5161EC0 /* Pods_Latihan_Texture.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6712181F28EBC192002090DE = {
+			isa = PBXGroup;
+			children = (
+				6712182A28EBC192002090DE /* Latihan Texture */,
+				6712182928EBC192002090DE /* Products */,
+				A0A787A9C4F215450F972E10 /* Pods */,
+				3D0B2CD3989B2762AC3AE6BF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6712182928EBC192002090DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6712182828EBC192002090DE /* Latihan Texture.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6712182A28EBC192002090DE /* Latihan Texture */ = {
+			isa = PBXGroup;
+			children = (
+				6712184028EBD11C002090DE /* Feature */,
+				6712183F28EBD10F002090DE /* Demo */,
+				6712182B28EBC192002090DE /* AppDelegate.swift */,
+				6712182D28EBC192002090DE /* SceneDelegate.swift */,
+				6712183428EBC193002090DE /* Assets.xcassets */,
+				6712183628EBC193002090DE /* LaunchScreen.storyboard */,
+				6712183928EBC193002090DE /* Info.plist */,
+			);
+			path = "Latihan Texture";
+			sourceTree = "<group>";
+		};
+		6712183F28EBD10F002090DE /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				6712182F28EBC192002090DE /* ViewController.swift */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		6712184028EBD11C002090DE /* Feature */ = {
+			isa = PBXGroup;
+			children = (
+				6712188C28EBF7C8002090DE /* Components */,
+				6712184328EBD163002090DE /* Model */,
+				6712184228EBD14F002090DE /* Data */,
+			);
+			path = Feature;
+			sourceTree = "<group>";
+		};
+		6712184228EBD14F002090DE /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				6712184828EBD234002090DE /* DataGenerator.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		6712184328EBD163002090DE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6712184428EBD17A002090DE /* StoryModel.swift */,
+				6712184628EBD1B4002090DE /* PostModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6712188C28EBF7C8002090DE /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				6712188A28EBF5EB002090DE /* HomeViewController.swift */,
+				6712189528EC4B69002090DE /* Post */,
+				6712189028EC0E22002090DE /* Story */,
+				6712188D28EBF7D3002090DE /* Header */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		6712188D28EBF7D3002090DE /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				6712188E28EBF7E0002090DE /* HeaderNode.swift */,
+			);
+			path = Header;
+			sourceTree = "<group>";
+		};
+		6712189028EC0E22002090DE /* Story */ = {
+			isa = PBXGroup;
+			children = (
+				6712189128EC0E31002090DE /* StoryNode.swift */,
+				6712189328EC24DC002090DE /* StoryCollectionNode.swift */,
+			);
+			path = Story;
+			sourceTree = "<group>";
+		};
+		6712189528EC4B69002090DE /* Post */ = {
+			isa = PBXGroup;
+			children = (
+				6712189A28EC80CA002090DE /* PostTableNode.swift */,
+				6712189628EC4BD3002090DE /* PostNode.swift */,
+				6712189828EC4D43002090DE /* PostHeaderNode.swift */,
+				6712189E28EC95AA002090DE /* PostInteractionNode.swift */,
+				671218A028EC9CCD002090DE /* PostInformationNode.swift */,
+			);
+			path = Post;
+			sourceTree = "<group>";
+		};
+		A0A787A9C4F215450F972E10 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1E0DECFBC658B8C0749A5170 /* Pods-Latihan Texture.debug.xcconfig */,
+				FD2538E32A9D20C47694A62A /* Pods-Latihan Texture.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6712182728EBC192002090DE /* Latihan Texture */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6712183C28EBC193002090DE /* Build configuration list for PBXNativeTarget "Latihan Texture" */;
+			buildPhases = (
+				31943373A909CD9A6136445A /* [CP] Check Pods Manifest.lock */,
+				6712182428EBC192002090DE /* Sources */,
+				6712182528EBC192002090DE /* Frameworks */,
+				6712182628EBC192002090DE /* Resources */,
+				B298DDD5D96E3E4742C918AF /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Latihan Texture";
+			productName = "Latihan Texture";
+			productReference = 6712182828EBC192002090DE /* Latihan Texture.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6712182028EBC192002090DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					6712182728EBC192002090DE = {
+						CreatedOnToolsVersion = 14.0;
+					};
+				};
+			};
+			buildConfigurationList = 6712182328EBC192002090DE /* Build configuration list for PBXProject "Latihan Texture" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6712181F28EBC192002090DE;
+			productRefGroup = 6712182928EBC192002090DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6712182728EBC192002090DE /* Latihan Texture */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6712182628EBC192002090DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6712183828EBC193002090DE /* LaunchScreen.storyboard in Resources */,
+				6712183528EBC193002090DE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		31943373A909CD9A6136445A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Latihan Texture-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B298DDD5D96E3E4742C918AF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Latihan Texture/Pods-Latihan Texture-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Latihan Texture/Pods-Latihan Texture-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Latihan Texture/Pods-Latihan Texture-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6712182428EBC192002090DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6712189928EC4D43002090DE /* PostHeaderNode.swift in Sources */,
+				6712189228EC0E31002090DE /* StoryNode.swift in Sources */,
+				6712189728EC4BD3002090DE /* PostNode.swift in Sources */,
+				6712183028EBC192002090DE /* ViewController.swift in Sources */,
+				6712184728EBD1B4002090DE /* PostModel.swift in Sources */,
+				6712188F28EBF7E0002090DE /* HeaderNode.swift in Sources */,
+				6712189F28EC95AA002090DE /* PostInteractionNode.swift in Sources */,
+				6712184528EBD17A002090DE /* StoryModel.swift in Sources */,
+				6712184928EBD234002090DE /* DataGenerator.swift in Sources */,
+				6712182C28EBC192002090DE /* AppDelegate.swift in Sources */,
+				671218A128EC9CCD002090DE /* PostInformationNode.swift in Sources */,
+				6712189B28EC80CA002090DE /* PostTableNode.swift in Sources */,
+				6712189428EC24DC002090DE /* StoryCollectionNode.swift in Sources */,
+				6712188B28EBF5EB002090DE /* HomeViewController.swift in Sources */,
+				6712182E28EBC192002090DE /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6712183628EBC193002090DE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6712183728EBC193002090DE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6712183A28EBC193002090DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6712183B28EBC193002090DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6712183D28EBC193002090DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E0DECFBC658B8C0749A5170 /* Pods-Latihan Texture.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 45MQ5Z53TD;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Latihan Texture/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ilham.Latihan-Texture";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6712183E28EBC193002090DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD2538E32A9D20C47694A62A /* Pods-Latihan Texture.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 45MQ5Z53TD;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Latihan Texture/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ilham.Latihan-Texture";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6712182328EBC192002090DE /* Build configuration list for PBXProject "Latihan Texture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6712183A28EBC193002090DE /* Debug */,
+				6712183B28EBC193002090DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6712183C28EBC193002090DE /* Build configuration list for PBXNativeTarget "Latihan Texture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6712183D28EBC193002090DE /* Debug */,
+				6712183E28EBC193002090DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6712182028EBC192002090DE /* Project object */;
+}
